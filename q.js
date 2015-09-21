@@ -450,6 +450,7 @@ function isInternalFrame(stackLine) {
 // discover own file name and line number range for filtering stack
 // traces
 function captureLine() {
+    return;
     if (!hasStacks) {
         return;
     }
